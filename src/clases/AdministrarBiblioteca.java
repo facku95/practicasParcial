@@ -1,15 +1,14 @@
 package clases;
 
+import java.util.Scanner;
+
 public class AdministrarBiblioteca {
 
 	public static void main(String[] args) {
-	
-		Prestamos [] arrayprestamos;
-		Estudiantes arrayEstudiantes;
-		Libros libro1 = new Libros(123,"ExpresoOriente","AgathaChristie");//se crean los libros
-		arrayEstudiantes = new Estudiantes(159,"nombre","apellido");
-		arrayprestamos[0] = new Prestamos(123,arrayEstudiantes,libro1);
-		System.out.println(arrayprestamos[0].toString());
-	}
-
+		
+	Estudiantes [] arrayEstudiante =new Estudiantes[100];
+	Libros [] arrayLibros = new Libros[100];
+	Prestamos [] arrayPrestamos = new Prestamos[100];
+	//arrayPrestamos[0]=new Prestamos(123,arrayEstudiante[0],arrayLibros[0]);
+}
 }
